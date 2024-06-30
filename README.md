@@ -18,3 +18,44 @@ Automated Movement Analysis: The system automates the process of evaluating move
 * Recovery times post-exercise showed a cumulative effect of fatigue: 137 seconds after the first set, increasing to 162 seconds after the second, and reaching 217 seconds after the third.
 ## Applications
 The developed biotechnical system and movement analysis techniques can be applied not only in fencing but also in other individual sports where precision and coordination of movements are crucial. Integrating such systems into the training process can enhance the quality of athlete preparation and improve sports performance.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your_username/your_repository.git
+    cd your_repository
+    ```
+
+2. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main script:
+    ```bash
+    python main.py
+    ```
+
+2. Follow the instructions in `main.py` to perform various stages of data analysis.
+
+## File Description
+
+- `data_processing.py`: Contains functions for data processing and loading.
+- `feature_extraction.py`: Contains functions for feature extraction from data.
+- `movement_classification.py`: Contains models and methods for movement classification.
+- `heart_rate_analysis.py`: Contains methods for heart rate recovery analysis.
+- `visualizations.py`: Contains functions for data visualization.
+- `main.py`: The main file to run the entire project.
+- `utils/`: Folder with utility functions, such as `file_io.py`, `data_split.py`, and `plot_utils.py`.
+
+## Requirements
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+- Scikit-learn
