@@ -53,7 +53,7 @@ The developed biotechnical system and movement analysis techniques can be applie
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9
 - Pandas
 - NumPy
 - Matplotlib
